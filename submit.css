@@ -1,0 +1,89 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb{
+    background: white; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: grey; 
+}
+
+body{ 
+    background-color:rgb(26, 24, 24);
+    font-family: Century Gothic; 
+    color: white;
+}
+
+.header{ 
+    font-size: 40px; 
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+}
+
+.para{
+    font-family: century gothic; 
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; 
+}
+
+a.button1{
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 90%; 
+    left: 4%; 
+    display: inline-block;
+    padding: 5.6px 19.2px;
+    border: 1.6px white;
+    margin :0 10px 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Century Gothic; 
+    color: white;
+    text-align:center;
+    transition: 0.4s ease;
+}
+
+a.button1:hover{
+    color:black;
+    background-color:white;
+}
+
+@media all and (max-width:480px){
+    
+a.button1{
+    display: block;
+    margin: 6.5px auto;
+}
+}
+
+#footer{
+    background-color: rgb(34, 32, 32); 
+    position: absolute;
+    top: 100%;
+    width: 83.1%;
+    height: 10px; 
+    border-top: 2px solid #ecf0f1; 
+    padding: 80px 128px; 
+    display: flex; 
+    justify-content: space-between; 
+}
